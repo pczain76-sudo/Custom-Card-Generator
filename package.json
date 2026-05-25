@@ -1,0 +1,25 @@
+{
+  "name": "employee-id-card-generator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^36.9.5",
+    "electron-builder": "^26.8.1"
+  },
+  "build": {
+    "appId": "com.zain.idcard",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/ico.ico"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
